@@ -1,0 +1,49 @@
+#bloc-6 p {
+    font-size: 1.6rem;
+}
+
+#bloc-6 .col-12-sm {
+    background-color: grey;
+}
+
+#bloc-7 .bloc-lg .row .col-sm-6 {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 1 auto;
+    justify-content: center;
+    padding: 1rem 3rem;
+}
+
+.form-group {
+    grid-area: form;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+#bloc-7 .bloc-lg {
+    padding-bottom: 3rem !important;
+}
+
+#bloc-7 .bloc-lg .row {
+    display: grid;
+}
+
+.col-sm-6 {
+    width: auto !important;
+}
+
+#bloc-7 .bloc-lg .row .col-sm-6 p {
+    font-size: 1.6rem;
+    padding-top: 1rem;
+    line-height: 2.2rem;
+}
+
+#bloc-7 .bloc-lg form {
+    padding-right: 0rem;
+}
+
+.tight-width-whitespace {
+    font-size: 1.4rem;
+}
