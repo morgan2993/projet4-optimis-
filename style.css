@@ -770,6 +770,11 @@ h4 {
     color: #FFFFFF!important;
 }
 
+ .text-center {
+    color: #333333;
+    margin-bottom: 5rem;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -1071,7 +1076,7 @@ h4 {
         text-align: center;
     }
 }
-/*
+
 @media (min-width: 770px) {
     .navbar .nav li:hover {
         background-color: #F3976C;
@@ -1094,13 +1099,7 @@ h4 {
         text-decoration: underline;
     }
     
-    #bloc-5-cta h2 {
-        opacity: 100%;
-        font-weight: 700;
-        padding: 40px 40px 40px 40px;
-        max-width: 500px;
-        margin: auto;
-    }
+    
     
     #bloc-8 p {
         color: #424242 !important;
@@ -1132,4 +1131,4 @@ h4 {
         margin: 0rem;
     }
     }
-*/
+
