@@ -289,8 +289,7 @@ a:hover {
 
 .row-no-gutters.social {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     margin-top: 1rem;
 
@@ -394,6 +393,12 @@ footer .row li {
     z-index: 2;
 }
 
+@media (min-width: 1000px) {
+    button {
+        display: none;
+    }
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -402,6 +407,8 @@ footer .row li {
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
+
+  
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
