@@ -323,7 +323,10 @@ footer .row li {
 
 .navbar-brand {
     height: auto;
-    padding: 3px 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 1px;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
@@ -393,7 +396,7 @@ footer .row li {
     z-index: 2;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 992px) {
     button {
         display: none;
     }
@@ -896,7 +899,7 @@ h4 {
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        max-width: 80%
+        max-width: 100%
     }
     .nav-center.navbar .nav {
         max-width: 100%
@@ -928,8 +931,7 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+       
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -939,12 +941,11 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+   
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1017,7 +1018,7 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
+        max-height: 30px;
         width: auto;
     }
     .nav-invert .navbar-header {
